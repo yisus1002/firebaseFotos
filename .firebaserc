@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "firefile-c75e2": {
+      "hosting": {
+        "fireFotos": [
+          "firefile-c75e2"
+        ]
+      }
+    },
+    "firefotos-55606": {
+      "hosting": {
+        "fireFotos": [
+          "firefotos-55606"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firefotos-55606"
+  }
+}

@@ -1,0 +1,7 @@
+<div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-4">
+    <div class="col" *ngFor="let item of _sCarg.imagenes">
+      <div class="card">
+        <img [src]="item.url" class="card-img-top" [alt]="item.nombreArchivo">
+      </div>
+    </div>
+  </div>

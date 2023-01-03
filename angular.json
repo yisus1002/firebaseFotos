@@ -100,8 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "fireFotos:build:production",
+            "firebaseProject": "firefotos-55606",
+            "firebaseHostingSite": "firefotos-55606"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
